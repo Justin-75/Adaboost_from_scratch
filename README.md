@@ -101,7 +101,7 @@ D_{t+1}(i) = \frac{D_t(i)\, \exp\bigl(-\alpha_t\, y_i\, h_t(x_i)\bigr)}{Z_t}, \q
 The final prediction is the sign of the weighted vote:
 
 ```math
-\hat{y}(x) = \operatorname{sign}\Bigl(\sum_{t=1}^{T} \alpha_t h_t(x)\Bigr)
+\hat{y}(x) =\mathop{\mathrm{sign}}\Bigl(\sum_{t=1}^{T} \alpha_t h_t(x)\Bigr)
 ```
 
 ### 3.2 Decision stump
