@@ -25,9 +25,6 @@ Requires Python 3 with NumPy, plus pandas for `main.py`. Tested with Python 3.14
 cd Tools
 
 # base learner id: 0 = logistic regression, 1 = decision stump
-python main.py data.csv targets.csv 1
-python evaluate.py
-
 python adaboost.py data.csv targets.csv 1
 python evaluate.py
 
